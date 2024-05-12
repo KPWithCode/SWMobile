@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "sexyweatherfe",
+    "scheme": "sexyweather",
     "slug": "sexyweatherfe",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -15,7 +16,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "package":"com.regal.mist"
     },
     "android": {
       "adaptiveIcon": {
@@ -25,6 +27,10 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ]
   }
 }
