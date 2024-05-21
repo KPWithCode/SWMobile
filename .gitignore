@@ -36,5 +36,5 @@ yarn-error.*
 
 
 # my add ons
-.assets
+*assets
 .env
